@@ -170,3 +170,15 @@ exports.uploadImage = (req, res) => {
     });
     busboy.end(req.rawBody);
   };
+
+  //not tested yet
+  exports.levelUp = (req, res) => {
+
+    db.doc(`/users/${req.user.userId}`).update({ level: admin.firestore.FieldValue.increment(1) })
+    .then(()=>{
+      res.status(200).json("Level up!")
+    })
+    .catch(err=>console.error(err))
+    
+
+  }

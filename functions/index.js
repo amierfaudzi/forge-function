@@ -15,7 +15,8 @@ const {
     signup,
     signin,
     signout,
-    uploadImage
+    uploadImage,
+    levelUp
 } = require('./handlers/users');
 
 // users routes
@@ -23,5 +24,6 @@ app.post('/signup', signup);
 app.post('/signin', signin);
 app.get('/signout', signout);
 app.post('/user/image', FBAuth, uploadImage);
+app.post('/user/level', FBAuth, levelUp);
 
 exports.api = functions.https.onRequest(app);
