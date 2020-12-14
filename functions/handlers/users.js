@@ -96,21 +96,29 @@ exports.signout = (req, res) => {
       });
 } 
 
-//modify to update the level?
-// //update user details
-// exports.updateUserDetails = (req, res) => {
-//     let userDetails = reduceUserDetails(req.body);
-
-//     db.doc(`/users/${req.user.userId}`)
-//     .update(userDetails)
-//     .then(()=>{
-//         return res.json({message: "Details updated successfully"});
-//     })
-//     .catch(err=> {
-//         console.err(err);
-//         return res.status(500).json({error: error.code});
-//     })
-// }
+//retrieve authenticated user information
+exports.getAuthenticatedUser = (req, res) => {
+  let userData = {};
+  db.doc(`/users/${req.user.uid}`)
+  .get().then((doc)=>{
+    
+    if(doc.exists){
+      userData.credentials = doc.data();
+      return db.collection('skills').where('userId', "==", req.user.uid).get();
+    }
+  })
+  .then((data) => {
+    userData.skills = [];
+    data.forEach(doc => {
+      userData.skills.push(doc.data());
+    });
+    return res.json(userData);
+  })
+  .catch((err) => {
+    console.error(err);
+    return res.status(500).json({ error: err.code });
+  });
+}
 
 // Upload a profile image for user
 exports.uploadImage = (req, res) => {
@@ -173,12 +181,11 @@ exports.uploadImage = (req, res) => {
 
   //not tested yet
   exports.levelUp = (req, res) => {
-
-    db.doc(`/users/${req.user.userId}`).update({ level: admin.firestore.FieldValue.increment(1) })
-    .then(()=>{
-      res.status(200).json("Level up!")
+    //updating the level
+    db.doc(`/users/${req.user.uid}`).update({
+      level: admin.firestore.FieldValue.increment(1)
     })
-    .catch(err=>console.error(err))
-    
-
+    //can be used to add the toast notification
+    //i might still need to add another request to update the user
+    res.status(200).json("Leveled up!")
   }

@@ -1,0 +1,41 @@
+{
+    "users": {
+        "level": 5,
+        "name": "Amier",
+        "userId": "QlXXQrilj5PiJKI4R87p3LknKfI2",
+        "email": "amier.faudzi@gmail.com",
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/the-forge-297301.appspot.com/o/no-img.png?alt=media",
+        "skillsId": [
+
+        ]
+    },
+    "skills": [
+        {
+            "skillName": "Becoming a react god",
+            "SkillDescription": "I wanna be the very best, like no one ever was",
+            "playlistId": "same as id",
+            "userId": "QlXXQrilj5PiJKI4R87p3LknKfI2^0.2.0",
+            "videoAmount": 10
+        },
+        {
+            "skillName": "Becoming a pope",
+            "SkillDescription": "Popeing off",
+            "playlistId": "same as id",
+            "userId": "QlXXQrilj5PiJKI4R87p3LknKfI2^0.2.0",
+            "videoAmount": 10
+        }
+    ],
+    "video": {
+        "userId": "QlXXQrilj5PiJKI4R87p3LknKfI2",
+        "playlistId":"same as playlistId",
+        "videoId": "same as id",
+        "title": "Some title"
+    },
+    "note": {
+        "userId": "QlXXQrilj5PiJKI4R87p3LknKfI2",
+        "videoId": "videoId",
+        "noteId": "same as id",
+        "title": "this is my note",
+        "content": "this is my note content"
+    }
+}
