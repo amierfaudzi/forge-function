@@ -1,24 +1,3 @@
-/*
-Playlist
-A playlist contains multiple video
-A playlist can belong to multiple users
-
-PlaylistId
-- User ID
-- Video ID
-- number of videos -  need to get from front end
-- overall progress
-
-medium db cant delete cuz cascading difficulty, can hide it instead
-needs auth
-it will be an object
-
-[x] get playlist
-[x] create playlist
-delete playlist
-edit playlist
-*/
-
 const { db } = require('../utilities/admin');
 
 //get all skills
@@ -42,18 +21,28 @@ exports.addASkill = (req, res) =>{
     }
 
     const newSkill = {
+        userId: req.user.user_id,
         skillName: req.body.skillName,
         skillDescription: req.body.skillDescription,
-        videoAmount: req.body.videoAmount,
-        ytPlaylistId: req.body.ytPlaylistId,
-        userId: req.user.user_id,
+        videoAmount: req.body.totalVideos,
+        playlistId: req.body.playlistId,
+        title: req.body.title,
+        channelTitle: req.body.channelTitle,
+        description: req.body.description,
+        thumbnailUrl: req.body.thumbnailUrl,
+        nextPageToken: req.body.nextPageToken,
+        video: req.body.video,
+        currentVideo: req.body.currentVideo
     }
+
+    console.log(newSkill)
 
     //current skills array
     let currSkill = []
     db.doc(`/users/${req.user.user_id}`).get()
     .then((doc)=> {
         currSkill = doc.data().skills;
+        console.log(currSkill)
     }).then(()=>{
         //add the new skills
         db.collection('skills').add(newSkill)

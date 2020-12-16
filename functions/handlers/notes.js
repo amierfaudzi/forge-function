@@ -1,4 +1,3 @@
-
 //add a note
 exports.addANote = (req,res) => {
     
