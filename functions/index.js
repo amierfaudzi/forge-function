@@ -36,7 +36,6 @@ app.post('/user/level', FBAuth, levelUp);
 //skills route
 app.get('/skills', FBAuth, getAllSkills);
 app.post('/skills', FBAuth, addASkill);
-
 //notes route
 
 exports.api = functions.https.onRequest(app);
