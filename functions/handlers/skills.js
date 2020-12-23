@@ -37,25 +37,31 @@ exports.addASkill = (req, res) =>{
 
     console.log(newSkill)
 
-    //current skills array
-    let currSkill = []
-    db.doc(`/users/${req.user.user_id}`).get()
-    .then((doc)=> {
-        currSkill = doc.data().skills;
-        console.log(currSkill)
-    }).then(()=>{
-        //add the new skills
-        db.collection('skills').add(newSkill)
-        .then((doc)=>{
-        let resSkill = newSkill;
-        resSkill.skillId = doc.id;
-        currSkill.push(doc.id);
-        //build a new skills array
-        db.doc(`/users/${req.user.user_id}`).set({
-            skills: currSkill
-        }, {merge: true})
-        res.status(201).json(resSkill)
-        })
+    // //current skills array
+    // let currSkill = []
+    // db.doc(`/users/${req.user.user_id}`).get()
+    // .then((doc)=> {
+    //     currSkill = doc.data().skills;
+    //     console.log("this is currskill", currSkill, doc.data())
+    // })
+    // .then(()=>{
+    //     //add the new skills
+    //     db.collection('skills').add(newSkill)
+    //     .then((doc)=>{
+    //     let resSkill = newSkill;
+    //     resSkill.skillId = doc.id;
+    //     currSkill.push(doc.id);
+    //     //build a new skills array
+    //     db.doc(`/users/${req.user.user_id}`).set({
+    //         skills: currSkill
+    //     }, {merge: true})
+    //     res.status(201).json(resSkill)
+    //     })
+    // })
+    // .catch(err=>console.log(err))
+
+    db.collection('skills').add(newSkill)
+    .then((doc)=>{
+        res.status(201).json(newSkill)
     })
-    .catch(err=>console.log(err))
 }
