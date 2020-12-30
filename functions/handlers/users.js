@@ -189,3 +189,72 @@ exports.uploadImage = (req, res) => {
     //i might still need to add another request to update the user
     res.status(200).json("Leveled up!")
   }
+
+
+  exports.superUser = (req, res) => {
+    //signin the user and get the user data here
+    const user = {
+      email: req.body.email,
+      password: req.body.password
+    };
+    // final payload to be sent back to the front end
+    const payload = [];
+    
+    // sign in component
+    const { valid, errors } = validateSigninData(user);
+
+    if(!valid) return res.status(400).json(errors);
+
+    firebase.auth()
+    .signInWithEmailAndPassword(user.email, user.password)
+    .then(({ user })=> {
+        //user destructuring is really important else error
+        return user.getIdToken();
+    })
+    .then(token => {
+        payload.push({ token });
+        return token
+    })
+    .then(token => {
+      admin
+      .auth()
+      .verifyIdToken(token)
+      .then((decodedToken) => {
+        req.user = decodedToken;
+        return db
+          .collection('users') 
+          .where('userId', '==', req.user.uid)
+          .limit(1)
+          .get();
+        })
+        .then((data)=> {
+
+          let rando = data.docs[0].data();
+          console.log("This is rando",rando)
+          // add user payload here
+          payload.push(rando);
+          return (rando.userId)
+
+        })
+        .then(id=>{
+          const skills = []
+          db.collection('skills').where('userId', "==", id).get()
+          .then((data) => {
+            data.forEach(doc => {
+              skills.push(doc.data());
+            });
+            payload.push(skills);
+            return res.json(payload);
+          })
+        })
+      .catch((err) => {
+        console.error('Error while verifying token ', err);
+        return res.status(403).json(err);
+      });
+    })
+    .catch(err => {
+        console.error(err);
+        return res.status(403).json({ general: "Wrong credentials, please try again"});
+    });
+  }
+

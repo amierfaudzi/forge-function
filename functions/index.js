@@ -10,32 +10,56 @@ exports.helloWorld = functions.https.onRequest((request, response) => {
   response.send("Hello from Firebase!");
 });
 
-//get all functions from user
+// user functions
 const {
     signup,
     signin,
     signout,
     uploadImage,
     levelUp,
-    getAuthenticatedUser
+    getAuthenticatedUser,
+    superUser
 } = require('./handlers/users');
-//get all function from skills
+// skill functions
 const {
   getAllSkills,
   addASkill
 } = require('./handlers/skills');
+// note functions
+const {
+  addNote,
+  allNote
+} = require('./handlers/notes')
+// trial function 
+const {
+  getNestedDoc,
+  getOneVideo
+} = require('./handlers/trial')
 
 // users routes
 app.post('/signup', signup);
 app.post('/signin', signin);
 app.get('/signout', signout);
+app.post('/super', superUser);
 app.get('/user', FBAuth, getAuthenticatedUser);
 app.post('/user/image', FBAuth, uploadImage);
 app.post('/user/level', FBAuth, levelUp);
+// -> add a new title
 
-//skills route
+// skills route
 app.get('/skills', FBAuth, getAllSkills);
 app.post('/skills', FBAuth, addASkill);
-//notes route
+// -> update the skill
+// -> delete the skill
+
+// notes route
+app.post('/notes', FBAuth, addNote);
+app.get('/notes', FBAuth, allNote);
+// -> update the note
+// -> delete the note
+
+// trial route
+app.get('/trial', FBAuth, getNestedDoc);
+app.get('/one', FBAuth, getOneVideo)
 
 exports.api = functions.https.onRequest(app);

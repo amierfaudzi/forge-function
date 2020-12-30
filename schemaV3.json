@@ -1,0 +1,41 @@
+// User - top level collection
+{
+    "name": "Amier",
+    "email": "amier.faudzi@gmail.com",
+    "userId": "abc123",
+    "userImage": "http://placekitten.com/200/200",
+    "level": 0,
+    "title": ["Kindling"],
+    "skills": [
+        {    "skillName": "Skill 1",
+            "skillDescription": "This is for skill 1"
+        }
+    ]
+}
+// Skill - top level collection
+{
+    "skillName": "Skill 1",
+    "skillDescription": "This is for skill 1",
+    "ownerUserId": "abc123",
+    "playlistId": "zyx987",
+    "currentVideo": "videoId",
+    "videoAmount": 10,
+    "isPublic": true,
+    "isDeleted": false,
+    "video": [
+        {
+            "videoId": "QFaFIcGhPoM",
+            "title": "ReactJS Tutorial - 1 - Introduction",
+            "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",
+            "position": 0,
+            "thumbnail": "https://i.ytimg.com/vi/QFaFIcGhPoM/mqdefault.jpg"
+        }
+    ]
+}
+// Notes - top level collection
+{
+    "videoId": "QFaFIcGhPoM",
+    "playlistId": "zyx987",
+    "userId": "abc123"
+    "note": ""
+}

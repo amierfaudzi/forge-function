@@ -1,0 +1,1042 @@
+[
+    {
+        "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjA4MGU0NWJlNGIzMTE4MzA5M2RhNzUyYmIyZGU5Y2RjYTNlNmU4ZTciLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vdGhlLWZvcmdlLTI5NzMwMSIsImF1ZCI6InRoZS1mb3JnZS0yOTczMDEiLCJhdXRoX3RpbWUiOjE2MDkwOTcwNTYsInVzZXJfaWQiOiJQSzl0dU9xakR3UnJzUWEwSU5TSU9kcG9zc1MyIiwic3ViIjoiUEs5dHVPcWpEd1Jyc1FhMElOU0lPZHBvc3NTMiIsImlhdCI6MTYwOTA5NzA1NiwiZXhwIjoxNjA5MTAwNjU2LCJlbWFpbCI6ImFtaWVyLmZhdWR6aUBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZW1haWwiOlsiYW1pZXIuZmF1ZHppQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6InBhc3N3b3JkIn19.LvSRooc_yJNpnuTnhyCewF7Yb1MQy2dpfJPG-4fsMFgndMYVeaw774dkzU5K7zk0yOQ3hrIl5PHOYXrJS5adocqn35GOdnANsCyJIGRN3zWA1VMRzhu4ehtX_gzWKcl_duGLmxKErSOHoQdEr7uoiaDffsOa0tgONwVFUoPecs6ura-AqJtfR9jdVETNEqbGRGKaP3_sB3UX6dB32QjjTbIwA37ypKTdh_Ujo-HbvOcyZCXvKz1N3LxI6a6WO3Fle--S3YnCAOTJBMq-KG7-8YiBAkCmoM4q2VzfMMZIOev6lMvsypAYSeRp_NxUk5ZdCVpVGvLEZ6dYcc_hz2ME6Q"
+    },
+    {
+        "name": "Amier",
+        "level": 15,
+        "email": "amier.faudzi@gmail.com",
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/the-forge-297301.appspot.com/o/no-img.png?alt=media",
+        "userId": "PK9tuOqjDwRrsQa0INSIOdpossS2"
+    },
+    [
+        {
+            "skillName": "React Js",
+            "channelTitle": "Codevolution",
+            "videoAmount": 77,
+            "skillDescription": "Learning react to be a master web developer",
+            "description": "React is an open source javascript library for building user interfaces. React is a project created and maintained by Facebook. React has more than a 100 ...",
+            "nextPageToken": "CDIQAA",
+            "title": "ReactJS Tutorial for Beginners",
+            "userId": "PK9tuOqjDwRrsQa0INSIOdpossS2",
+            "thumbnailUrl": "https://i.ytimg.com/vi/QFaFIcGhPoM/mqdefault.jpg",
+            "video": [
+                {
+                    "videoId": "QFaFIcGhPoM",
+                    "title": "ReactJS Tutorial - 1 - Introduction",
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",
+                    "position": 0,
+                    "notes": [],
+                    "thumbnail": "https://i.ytimg.com/vi/QFaFIcGhPoM/mqdefault.jpg"
+                },
+                {
+                    "position": 1,
+                    "videoId": "9hb_0TZ_MVI",
+                    "title": "ReactJS Tutorial - 2 - Hello World",
+                    "thumbnail": "https://i.ytimg.com/vi/9hb_0TZ_MVI/mqdefault.jpg",
+                    "notes": [],
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3"
+                },
+                {
+                    "videoId": "9VIiLJL0H4Y",
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",
+                    "title": "ReactJS Tutorial - 3 - Folder Structure",
+                    "position": 2,
+                    "thumbnail": "https://i.ytimg.com/vi/9VIiLJL0H4Y/mqdefault.jpg",
+                    "notes": []
+                },
+                {
+                    "title": "ReactJS Tutorial - 4 - Components",
+                    "position": 3,
+                    "videoId": "Y2hgEGPzTZY",
+                    "thumbnail": "https://i.ytimg.com/vi/Y2hgEGPzTZY/mqdefault.jpg",
+                    "notes": [],
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3"
+                },
+                {
+                    "notes": [],
+                    "thumbnail": "https://i.ytimg.com/vi/Cla1WwguArA/mqdefault.jpg",
+                    "title": "ReactJS Tutorial - 5 - Functional Components",
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",
+                    "videoId": "Cla1WwguArA",
+                    "position": 4
+                },
+                {
+                    "thumbnail": "https://i.ytimg.com/vi/lnV34uLEzis/mqdefault.jpg",
+                    "title": "ReactJS Tutorial - 6 - Class Components",
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",
+                    "notes": [],
+                    "position": 5,
+                    "videoId": "lnV34uLEzis"
+                },
+                {
+                    "videoId": "oecI26cWqzk",
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",
+                    "title": "ReactJS Tutorial - 7 - Hooks Update",
+                    "thumbnail": "https://i.ytimg.com/vi/oecI26cWqzk/mqdefault.jpg",
+                    "position": 6,
+                    "notes": []
+                },
+                {
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",
+                    "position": 7,
+                    "videoId": "7fPXI_MnBOY",
+                    "title": "ReactJS Tutorial - 8 - JSX",
+                    "thumbnail": "https://i.ytimg.com/vi/7fPXI_MnBOY/mqdefault.jpg",
+                    "notes": []
+                },
+                {
+                    "notes": [],
+                    "position": 8,
+                    "videoId": "m7OWXtbiXX8",
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",
+                    "thumbnail": "https://i.ytimg.com/vi/m7OWXtbiXX8/mqdefault.jpg",
+                    "title": "ReactJS Tutorial - 9 - Props"
+                },
+                {
+                    "thumbnail": "https://i.ytimg.com/vi/4ORZ1GmjaMc/mqdefault.jpg",
+                    "title": "ReactJS Tutorial - 10 - State",
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",
+                    "videoId": "4ORZ1GmjaMc",
+                    "position": 9,
+                    "notes": []
+                },
+                {
+                    "notes": [],
+                    "videoId": "uirRaVjRsf4",
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",
+                    "thumbnail": "https://i.ytimg.com/vi/uirRaVjRsf4/mqdefault.jpg",
+                    "position": 10,
+                    "title": "ReactJS Tutorial - 11 - setState"
+                },
+                {
+                    "videoId": "5_PdMS9CLLI",
+                    "thumbnail": "https://i.ytimg.com/vi/5_PdMS9CLLI/mqdefault.jpg",
+                    "notes": [],
+                    "title": "ReactJS Tutorial - 12 - Destructuring props and state",
+                    "position": 11,
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3"
+                },
+                {
+                    "title": "ReactJS Tutorial - 13 - Event Handling",
+                    "thumbnail": "https://i.ytimg.com/vi/Znqv84xi8Vs/mqdefault.jpg",
+                    "notes": [],
+                    "position": 12,
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",
+                    "videoId": "Znqv84xi8Vs"
+                },
+                {
+                    "notes": [],
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",
+                    "videoId": "kVWpBtRjkCk",
+                    "thumbnail": "https://i.ytimg.com/vi/kVWpBtRjkCk/mqdefault.jpg",
+                    "position": 13,
+                    "title": "ReactJS Tutorial - 14 - Binding Event Handlers"
+                },
+                {
+                    "thumbnail": "https://i.ytimg.com/vi/QpfyjwhY9kg/mqdefault.jpg",
+                    "notes": [],
+                    "videoId": "QpfyjwhY9kg",
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",
+                    "title": "ReactJS Tutorial - 15 - Methods as props",
+                    "position": 14
+                },
+                {
+                    "title": "ReactJS Tutorial - 16 - Conditional Rendering",
+                    "thumbnail": "https://i.ytimg.com/vi/7o5FPaVA9m0/mqdefault.jpg",
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",
+                    "videoId": "7o5FPaVA9m0",
+                    "notes": [],
+                    "position": 15
+                },
+                {
+                    "title": "ReactJS Tutorial - 17 - List Rendering",
+                    "thumbnail": "https://i.ytimg.com/vi/5s8Ol9uw-yM/mqdefault.jpg",
+                    "position": 16,
+                    "videoId": "5s8Ol9uw-yM",
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",
+                    "notes": []
+                },
+                {
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",
+                    "title": "ReactJS Tutorial - 18 - Lists and Keys",
+                    "position": 17,
+                    "thumbnail": "https://i.ytimg.com/vi/0sasRxl35_8/mqdefault.jpg",
+                    "videoId": "0sasRxl35_8",
+                    "notes": []
+                },
+                {
+                    "thumbnail": "https://i.ytimg.com/vi/xlPxnc5uUPQ/mqdefault.jpg",
+                    "position": 18,
+                    "videoId": "xlPxnc5uUPQ",
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",
+                    "title": "ReactJS Tutorial - 19 - Index as Key Anti-pattern",
+                    "notes": []
+                },
+                {
+                    "position": 19,
+                    "thumbnail": "https://i.ytimg.com/vi/j5P9FHiBVNo/mqdefault.jpg",
+                    "title": "ReactJS Tutorial - 20 - Styling and CSS Basics",
+                    "notes": [],
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",
+                    "videoId": "j5P9FHiBVNo"
+                },
+                {
+                    "thumbnail": "https://i.ytimg.com/vi/7Vo_VCcWupQ/mqdefault.jpg",
+                    "videoId": "7Vo_VCcWupQ",
+                    "title": "ReactJS Tutorial - 21 - Basics of Form Handling",
+                    "position": 20,
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",
+                    "notes": []
+                },
+                {
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",
+                    "title": "ReactJS Tutorial - 22 - Component Lifecycle Methods",
+                    "notes": [],
+                    "position": 21,
+                    "videoId": "qnN_FuFNq2g",
+                    "thumbnail": "https://i.ytimg.com/vi/qnN_FuFNq2g/mqdefault.jpg"
+                },
+                {
+                    "thumbnail": "https://i.ytimg.com/vi/KDXZibVdiEI/mqdefault.jpg",
+                    "videoId": "KDXZibVdiEI",
+                    "position": 22,
+                    "notes": [],
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",
+                    "title": "ReactJS Tutorial - 23 - Component Mounting Lifecycle Methods"
+                },
+                {
+                    "thumbnail": "https://i.ytimg.com/vi/DyPkojd1fas/mqdefault.jpg",
+                    "position": 23,
+                    "videoId": "DyPkojd1fas",
+                    "notes": [],
+                    "title": "ReactJS Tutorial - 24 - Component Updating Lifecycle Methods",
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3"
+                },
+                {
+                    "title": "ReactJS Tutorial - 25 - Fragments",
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",
+                    "thumbnail": "https://i.ytimg.com/vi/bHdh1T0-US4/mqdefault.jpg",
+                    "videoId": "bHdh1T0-US4",
+                    "notes": [],
+                    "position": 24
+                },
+                {
+                    "position": 25,
+                    "thumbnail": "https://i.ytimg.com/vi/YCRuTT31qR0/mqdefault.jpg",
+                    "notes": [],
+                    "title": "ReactJS Tutorial - 26 - Pure Components",
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",
+                    "videoId": "YCRuTT31qR0"
+                },
+                {
+                    "notes": [],
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",
+                    "thumbnail": "https://i.ytimg.com/vi/7TaBhrnPH78/mqdefault.jpg",
+                    "videoId": "7TaBhrnPH78",
+                    "title": "ReactJS Tutorial - 27 - memo",
+                    "position": 26
+                },
+                {
+                    "position": 27,
+                    "videoId": "FXa9mMTKOu8",
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",
+                    "title": "ReactJS Tutorial - 28 - Refs",
+                    "thumbnail": "https://i.ytimg.com/vi/FXa9mMTKOu8/mqdefault.jpg",
+                    "notes": []
+                },
+                {
+                    "videoId": "8aCXVC9Qmto",
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",
+                    "thumbnail": "https://i.ytimg.com/vi/8aCXVC9Qmto/mqdefault.jpg",
+                    "position": 28,
+                    "title": "ReactJS Tutorial - 29 - Refs with Class Components",
+                    "notes": []
+                },
+                {
+                    "title": "ReactJS Tutorial - 30 - Forwarding Refs",
+                    "thumbnail": "https://i.ytimg.com/vi/RLWniwmfdq4/mqdefault.jpg",
+                    "position": 29,
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",
+                    "videoId": "RLWniwmfdq4",
+                    "notes": []
+                },
+                {
+                    "thumbnail": "https://i.ytimg.com/vi/HpHLa-5Wdys/mqdefault.jpg",
+                    "title": "ReactJS Tutorial - 31 - Portals",
+                    "position": 30,
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",
+                    "videoId": "HpHLa-5Wdys",
+                    "notes": []
+                },
+                {
+                    "notes": [],
+                    "position": 31,
+                    "title": "ReactJS Tutorial - 32 - Error Boundary",
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",
+                    "thumbnail": "https://i.ytimg.com/vi/DNYXgtZBRPE/mqdefault.jpg",
+                    "videoId": "DNYXgtZBRPE"
+                },
+                {
+                    "position": 32,
+                    "thumbnail": "https://i.ytimg.com/vi/B6aNv8nkUSw/mqdefault.jpg",
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",
+                    "title": "ReactJS Tutorial - 33 - Higher Order Components (Part 1)",
+                    "notes": [],
+                    "videoId": "B6aNv8nkUSw"
+                },
+                {
+                    "videoId": "rsBQj6X7UK8",
+                    "thumbnail": "https://i.ytimg.com/vi/rsBQj6X7UK8/mqdefault.jpg",
+                    "position": 33,
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",
+                    "title": "ReactJS Tutorial - 34 - Higher Order Components (Part 2)",
+                    "notes": []
+                },
+                {
+                    "videoId": "l8V59zIdBXU",
+                    "title": "ReactJS Tutorial - 35 - Higher Order Components (Part 3)",
+                    "thumbnail": "https://i.ytimg.com/vi/l8V59zIdBXU/mqdefault.jpg",
+                    "notes": [],
+                    "position": 34,
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3"
+                },
+                {
+                    "videoId": "NdapMDgNhtE",
+                    "position": 35,
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",
+                    "notes": [],
+                    "title": "ReactJS Tutorial - 36 - Render Props (Part 1)",
+                    "thumbnail": "https://i.ytimg.com/vi/NdapMDgNhtE/mqdefault.jpg"
+                },
+                {
+                    "position": 36,
+                    "title": "ReactJS Tutorial - 37 - Render Props (Part 2)",
+                    "thumbnail": "https://i.ytimg.com/vi/EZil2OTyB4w/mqdefault.jpg",
+                    "notes": [],
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",
+                    "videoId": "EZil2OTyB4w"
+                },
+                {
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",
+                    "position": 37,
+                    "notes": [],
+                    "videoId": "j3j8St50fNY",
+                    "title": "ReactJS Tutorial - 38 - Context (Part 1)",
+                    "thumbnail": "https://i.ytimg.com/vi/j3j8St50fNY/mqdefault.jpg"
+                },
+                {
+                    "notes": [],
+                    "position": 38,
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",
+                    "title": "ReactJS Tutorial - 39 - Context (Part 2)",
+                    "thumbnail": "https://i.ytimg.com/vi/lTjQjWemKgE/mqdefault.jpg",
+                    "videoId": "lTjQjWemKgE"
+                },
+                {
+                    "videoId": "A9WlkhdLnn0",
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",
+                    "thumbnail": "https://i.ytimg.com/vi/A9WlkhdLnn0/mqdefault.jpg",
+                    "position": 39,
+                    "title": "ReactJS Tutorial - 40 - Context (Part 3)",
+                    "notes": []
+                },
+                {
+                    "videoId": "GTmjthNvrxY",
+                    "notes": [],
+                    "title": "ReactJS Tutorial - 41 - HTTP and React",
+                    "thumbnail": "https://i.ytimg.com/vi/GTmjthNvrxY/mqdefault.jpg",
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",
+                    "position": 40
+                },
+                {
+                    "notes": [],
+                    "thumbnail": "https://i.ytimg.com/vi/NEYrSUM4Umw/mqdefault.jpg",
+                    "videoId": "NEYrSUM4Umw",
+                    "position": 41,
+                    "title": "ReactJS Tutorial - 42 - HTTP GET Request",
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3"
+                },
+                {
+                    "position": 42,
+                    "thumbnail": "https://i.ytimg.com/vi/x9UEDRbLhJE/mqdefault.jpg",
+                    "title": "ReactJS Tutorial - 43 - HTTP Post Request",
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",
+                    "videoId": "x9UEDRbLhJE",
+                    "notes": []
+                },
+                {
+                    "position": 43,
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",
+                    "videoId": "cF2lQ_gZeA8",
+                    "title": "React Hooks Tutorial - 1 - Introduction",
+                    "thumbnail": "https://i.ytimg.com/vi/cF2lQ_gZeA8/mqdefault.jpg",
+                    "notes": []
+                },
+                {
+                    "position": 44,
+                    "notes": [],
+                    "thumbnail": "https://i.ytimg.com/vi/lAW1Jmmr9hc/mqdefault.jpg",
+                    "videoId": "lAW1Jmmr9hc",
+                    "title": "React Hooks Tutorial - 2 - useState Hook",
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3"
+                },
+                {
+                    "thumbnail": "https://i.ytimg.com/vi/d0plTCQgsXs/mqdefault.jpg",
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",
+                    "videoId": "d0plTCQgsXs",
+                    "title": "React Hooks Tutorial - 3 - useState with previous state",
+                    "position": 45,
+                    "notes": []
+                },
+                {
+                    "notes": [],
+                    "thumbnail": "https://i.ytimg.com/vi/-3lL8oyev9w/mqdefault.jpg",
+                    "videoId": "-3lL8oyev9w",
+                    "title": "React Hooks Tutorial - 4 - useState with object",
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",
+                    "position": 46
+                },
+                {
+                    "notes": [],
+                    "thumbnail": "https://i.ytimg.com/vi/RZ5wKYbOM_I/mqdefault.jpg",
+                    "title": "React Hooks Tutorial - 5 - useState with array",
+                    "position": 47,
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",
+                    "videoId": "RZ5wKYbOM_I"
+                },
+                {
+                    "videoId": "06Y6aJzTmXY",
+                    "title": "React Hooks Tutorial - 6 - useEffect Hook",
+                    "position": 48,
+                    "notes": [],
+                    "thumbnail": "https://i.ytimg.com/vi/06Y6aJzTmXY/mqdefault.jpg",
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3"
+                },
+                {
+                    "position": 49,
+                    "videoId": "nAuWOnFMlOw",
+                    "notes": [],
+                    "title": "React Hooks Tutorial - 7 - useEffect after render",
+                    "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",
+                    "thumbnail": "https://i.ytimg.com/vi/nAuWOnFMlOw/mqdefault.jpg"
+                }
+            ],
+            "playlistId": "PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",
+            "currentVideo": 0
+        },
+        {
+            "description": "A geometric understanding of matrices, determinants, eigen-stuffs and more.",
+            "skillDescription": "Algebra",
+            "video": [
+                {
+                    "notes": [],
+                    "playlistId": "PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+                    "thumbnail": "https://i.ytimg.com/vi/fNk_zzaMoSs/mqdefault.jpg",
+                    "position": 0,
+                    "title": "Vectors, what even are they? | Essence of linear algebra, chapter 1",
+                    "videoId": "fNk_zzaMoSs"
+                },
+                {
+                    "title": "Linear combinations, span, and basis vectors | Essence of linear algebra, chapter 2",
+                    "position": 1,
+                    "notes": [],
+                    "playlistId": "PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+                    "videoId": "k7RM-ot2NWY",
+                    "thumbnail": "https://i.ytimg.com/vi/k7RM-ot2NWY/mqdefault.jpg"
+                },
+                {
+                    "playlistId": "PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+                    "position": 2,
+                    "notes": [],
+                    "videoId": "kYB8IZa5AuE",
+                    "thumbnail": "https://i.ytimg.com/vi/kYB8IZa5AuE/mqdefault.jpg",
+                    "title": "Linear transformations and matrices | Essence of linear algebra, chapter 3"
+                },
+                {
+                    "thumbnail": "https://i.ytimg.com/vi/XkY2DOUCWMU/mqdefault.jpg",
+                    "notes": [],
+                    "position": 3,
+                    "playlistId": "PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+                    "title": "Matrix multiplication as composition | Essence of linear algebra, chapter 4",
+                    "videoId": "XkY2DOUCWMU"
+                },
+                {
+                    "videoId": "rHLEWRxRGiM",
+                    "notes": [],
+                    "thumbnail": "https://i.ytimg.com/vi/rHLEWRxRGiM/mqdefault.jpg",
+                    "position": 4,
+                    "title": "Three-dimensional linear transformations | Essence of linear algebra, chapter 5",
+                    "playlistId": "PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab"
+                },
+                {
+                    "playlistId": "PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+                    "title": "The determinant | Essence of linear algebra, chapter 6",
+                    "notes": [],
+                    "videoId": "Ip3X9LOh2dk",
+                    "thumbnail": "https://i.ytimg.com/vi/Ip3X9LOh2dk/mqdefault.jpg",
+                    "position": 5
+                },
+                {
+                    "playlistId": "PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+                    "title": "Inverse matrices, column space and null space | Essence of linear algebra, chapter 7",
+                    "thumbnail": "https://i.ytimg.com/vi/uQhTuRlWMxw/mqdefault.jpg",
+                    "position": 6,
+                    "videoId": "uQhTuRlWMxw",
+                    "notes": []
+                },
+                {
+                    "position": 7,
+                    "thumbnail": "https://i.ytimg.com/vi/v8VSDg_WQlA/mqdefault.jpg",
+                    "videoId": "v8VSDg_WQlA",
+                    "notes": [],
+                    "playlistId": "PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+                    "title": "Nonsquare matrices as transformations between dimensions | Essence of linear algebra, chapter 8"
+                },
+                {
+                    "videoId": "LyGKycYT2v0",
+                    "position": 8,
+                    "notes": [],
+                    "title": "Dot products and duality | Essence of linear algebra, chapter 9",
+                    "playlistId": "PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+                    "thumbnail": "https://i.ytimg.com/vi/LyGKycYT2v0/mqdefault.jpg"
+                },
+                {
+                    "playlistId": "PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+                    "notes": [],
+                    "videoId": "eu6i7WJeinw",
+                    "thumbnail": "https://i.ytimg.com/vi/eu6i7WJeinw/mqdefault.jpg",
+                    "position": 9,
+                    "title": "Cross products | Essence of linear algebra, Chapter 10"
+                },
+                {
+                    "thumbnail": "https://i.ytimg.com/vi/BaM7OCEm3G0/mqdefault.jpg",
+                    "position": 10,
+                    "playlistId": "PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+                    "notes": [],
+                    "videoId": "BaM7OCEm3G0",
+                    "title": "Cross products in the light of linear transformations | Essence of linear algebra chapter 11"
+                },
+                {
+                    "notes": [],
+                    "videoId": "jBsC34PxzoM",
+                    "thumbnail": "https://i.ytimg.com/vi/jBsC34PxzoM/mqdefault.jpg",
+                    "position": 11,
+                    "playlistId": "PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+                    "title": "Cramer's rule, explained geometrically | Essence of linear algebra, chapter 12"
+                },
+                {
+                    "thumbnail": "https://i.ytimg.com/vi/P2LTAUO1TdA/mqdefault.jpg",
+                    "videoId": "P2LTAUO1TdA",
+                    "playlistId": "PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+                    "position": 12,
+                    "title": "Change of basis | Essence of linear algebra, chapter 13",
+                    "notes": []
+                },
+                {
+                    "thumbnail": "https://i.ytimg.com/vi/PFDu9oVAE-g/mqdefault.jpg",
+                    "playlistId": "PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+                    "videoId": "PFDu9oVAE-g",
+                    "position": 13,
+                    "title": "Eigenvectors and eigenvalues | Essence of linear algebra, chapter 14",
+                    "notes": []
+                },
+                {
+                    "thumbnail": "https://i.ytimg.com/vi/TgKwz5Ikpc8/mqdefault.jpg",
+                    "position": 14,
+                    "notes": [],
+                    "videoId": "TgKwz5Ikpc8",
+                    "title": "Abstract vector spaces | Essence of linear algebra, chapter 15",
+                    "playlistId": "PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab"
+                }
+            ],
+            "playlistId": "PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+            "nextPageToken": null,
+            "channelTitle": "3Blue1Brown",
+            "userId": "PK9tuOqjDwRrsQa0INSIOdpossS2",
+            "videoAmount": 15,
+            "title": "Essence of linear algebra",
+            "skillName": "Algebra",
+            "currentVideo": 0,
+            "thumbnailUrl": "https://i.ytimg.com/vi/fNk_zzaMoSs/mqdefault.jpg"
+        },
+        {
+            "playlistId": "PL1kdtqIq7DDcJaQ-VEIMHIKTTd20MnZTO",
+            "userId": "PK9tuOqjDwRrsQa0INSIOdpossS2",
+            "skillName": "Wood working",
+            "channelTitle": "Woodworking Crafts",
+            "thumbnailUrl": "https://i.ytimg.com/vi/OdqO2uL1CKQ/mqdefault.jpg",
+            "video": [
+                {
+                    "thumbnail": "https://i.ytimg.com/vi/OdqO2uL1CKQ/mqdefault.jpg",
+                    "position": 0,
+                    "videoId": "OdqO2uL1CKQ",
+                    "playlistId": "PL1kdtqIq7DDcJaQ-VEIMHIKTTd20MnZTO",
+                    "title": "Wood Carving - Megalodon Monster Jam - Amazing Techniques Woodworking - Woodworking Art Crafts",
+                    "notes": []
+                },
+                {
+                    "videoId": "u4ml0gbYfjM",
+                    "playlistId": "PL1kdtqIq7DDcJaQ-VEIMHIKTTd20MnZTO",
+                    "thumbnail": "https://i.ytimg.com/vi/u4ml0gbYfjM/mqdefault.jpg",
+                    "title": "Wood Carving - Pirates Monster Jam - Amazing Techniques Woodworking - Creative Woodworking Art",
+                    "position": 1,
+                    "notes": []
+                },
+                {
+                    "thumbnail": "https://i.ytimg.com/vi/-IIZf2Dxdjw/mqdefault.jpg",
+                    "videoId": "-IIZf2Dxdjw",
+                    "position": 2,
+                    "notes": [],
+                    "title": "Wood Carving - Dragon Monster Jam - Amazing Techniques Woodworking - Woodworking Art Crafts",
+                    "playlistId": "PL1kdtqIq7DDcJaQ-VEIMHIKTTd20MnZTO"
+                },
+                {
+                    "title": "Wood Carving - Skeletion Monster Jam - Amazing Techniques Woodworking - Woodworking Art Crafts",
+                    "position": 3,
+                    "thumbnail": "https://i.ytimg.com/vi/DUAIC57zgEU/mqdefault.jpg",
+                    "videoId": "DUAIC57zgEU",
+                    "playlistId": "PL1kdtqIq7DDcJaQ-VEIMHIKTTd20MnZTO",
+                    "notes": []
+                },
+                {
+                    "videoId": "unyzuT4FGyw",
+                    "title": "Cool Idea Woodworking Project - Make A Wooden Ghost Rider Bike - DIY Homemade Crafts",
+                    "notes": [],
+                    "playlistId": "PL1kdtqIq7DDcJaQ-VEIMHIKTTd20MnZTO",
+                    "position": 4,
+                    "thumbnail": "https://i.ytimg.com/vi/unyzuT4FGyw/mqdefault.jpg"
+                },
+                {
+                    "videoId": "pFhPZHcnYfs",
+                    "thumbnail": "https://i.ytimg.com/vi/pFhPZHcnYfs/mqdefault.jpg",
+                    "position": 5,
+                    "playlistId": "PL1kdtqIq7DDcJaQ-VEIMHIKTTd20MnZTO",
+                    "title": "Amazing Woodworking Project - Carving My Son's Favorite Dinosaur - How to make Wooden T-REX",
+                    "notes": []
+                }
+            ],
+            "videoAmount": 6,
+            "title": "Amazing Woodworking Projects - Carving Wooden Cars - Homemade DIY",
+            "description": "Amazing Woodworking Projects - Carving Wooden Cars - Homemade DIY #DIY #woodencars #woodcarving #woodworking #carving #woodart ...",
+            "skillDescription": "wood working",
+            "nextPageToken": null,
+            "currentVideo": 0
+        },
+        {
+            "description": "Learn UI Design of Website Step By Step, Website UI design tutorials for beginners. Web UI Designing Course In Adobe XD (A Free UI Design Tool) Best ...",
+            "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+            "nextPageToken": "CDIQAA",
+            "thumbnailUrl": "https://i.ytimg.com/vi/3aOU9MbITlM/mqdefault.jpg",
+            "channelTitle": "Easy Tutorials",
+            "video": [
+                {
+                    "position": 0,
+                    "title": "Web Design In Adobe XD | How To Make Website UI Design Using Adobe XD",
+                    "videoId": "3aOU9MbITlM",
+                    "thumbnail": "https://i.ytimg.com/vi/3aOU9MbITlM/mqdefault.jpg",
+                    "notes": [],
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ"
+                },
+                {
+                    "thumbnail": "https://i.ytimg.com/vi/pvD1l2BmfrE/mqdefault.jpg",
+                    "title": "Website UI Design Tutorial | Learn UI/UX Designing In Adobe XD | Website Desgin 2019",
+                    "position": 1,
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+                    "videoId": "pvD1l2BmfrE",
+                    "notes": []
+                },
+                {
+                    "position": 2,
+                    "videoId": "7KLvP3r2eGU",
+                    "thumbnail": "https://i.ytimg.com/vi/7KLvP3r2eGU/mqdefault.jpg",
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+                    "title": "Website UI Design Tutorial 2019 | Learn UI UX Designing In Adobe XD",
+                    "notes": []
+                },
+                {
+                    "position": 3,
+                    "title": "Website UI Design Tutorial | Website Animation In Adobe XD | Prototype UI Design",
+                    "thumbnail": "https://i.ytimg.com/vi/vMAnBpD7D-w/mqdefault.jpg",
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+                    "videoId": "vMAnBpD7D-w",
+                    "notes": []
+                },
+                {
+                    "title": "UI/UX Design Tutorial | Website UI Design In Adobe XD | 2019 Web Design Tutorial",
+                    "videoId": "25zB8JIr71Y",
+                    "notes": [],
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+                    "thumbnail": "https://i.ytimg.com/vi/25zB8JIr71Y/mqdefault.jpg",
+                    "position": 4
+                },
+                {
+                    "videoId": "8i8jDIV5QsE",
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+                    "notes": [],
+                    "position": 5,
+                    "title": "Website UI Design Tutorial | Full Website UI Design In Adobe XD | Web Designing",
+                    "thumbnail": "https://i.ytimg.com/vi/8i8jDIV5QsE/mqdefault.jpg"
+                },
+                {
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+                    "position": 6,
+                    "videoId": "pqKGe7L5QZQ",
+                    "thumbnail": "https://i.ytimg.com/vi/pqKGe7L5QZQ/mqdefault.jpg",
+                    "notes": [],
+                    "title": "Website Design Tutorials In Adobe XD | Learn Website UI Design In 10 Minutes"
+                },
+                {
+                    "title": "Website UI Design Tutorial | Web Design In Adobe XD Tutorial For Beginners",
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+                    "thumbnail": "https://i.ytimg.com/vi/tYkXUVdNKhw/mqdefault.jpg",
+                    "videoId": "tYkXUVdNKhw",
+                    "notes": [],
+                    "position": 7
+                },
+                {
+                    "notes": [],
+                    "title": "Website UI Design Tutorial | Complete Website UI Design In Adobe XD | Web Designing",
+                    "thumbnail": "https://i.ytimg.com/vi/iBSq1mwNxC4/mqdefault.jpg",
+                    "videoId": "iBSq1mwNxC4",
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+                    "position": 8
+                },
+                {
+                    "videoId": "oShGsQyHxmM",
+                    "thumbnail": "https://i.ytimg.com/vi/oShGsQyHxmM/mqdefault.jpg",
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+                    "position": 9,
+                    "title": "How To Make Website UI Design In Adobe XD | Web UI Design Tutorial",
+                    "notes": []
+                },
+                {
+                    "notes": [],
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+                    "thumbnail": "https://i.ytimg.com/vi/A-7nWG5n8oM/mqdefault.jpg",
+                    "position": 10,
+                    "videoId": "A-7nWG5n8oM",
+                    "title": "Website UI Design Tutorial | Website Front End UI Design In Adobe XD | Web Designing Tutorial"
+                },
+                {
+                    "title": "Website UI Design Tutorial | Website UI Design Course In Adobe XD | Web Designing",
+                    "position": 11,
+                    "notes": [],
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+                    "videoId": "ZXCP_s4rmPs",
+                    "thumbnail": "https://i.ytimg.com/vi/ZXCP_s4rmPs/mqdefault.jpg"
+                },
+                {
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+                    "title": "Website UI/UX Design Tutorial | Web Design In Adobe XD | Make Website UI Design",
+                    "thumbnail": "https://i.ytimg.com/vi/XMVmP7ECHu0/mqdefault.jpg",
+                    "videoId": "XMVmP7ECHu0",
+                    "notes": [],
+                    "position": 12
+                },
+                {
+                    "title": "UI UX Design | Website UI Design Tutorial 2019 | Web Design Tutorial In Adobe XD",
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+                    "notes": [],
+                    "position": 13,
+                    "thumbnail": "https://i.ytimg.com/vi/S-y1902UD-M/mqdefault.jpg",
+                    "videoId": "S-y1902UD-M"
+                },
+                {
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+                    "notes": [],
+                    "title": "Website UI UX Design Tutorial 2019 | Design Car Website In Adobe XD",
+                    "position": 14,
+                    "thumbnail": "https://i.ytimg.com/vi/W5lc8AFhuM0/mqdefault.jpg",
+                    "videoId": "W5lc8AFhuM0"
+                },
+                {
+                    "notes": [],
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+                    "videoId": "WLFFuNSJ1Ng",
+                    "thumbnail": "https://i.ytimg.com/vi/WLFFuNSJ1Ng/mqdefault.jpg",
+                    "title": "UI Design | How To Make A Food Website UI/UX Design In Adobe XD",
+                    "position": 15
+                },
+                {
+                    "notes": [],
+                    "thumbnail": "https://i.ytimg.com/vi/RFdtXi4Jr7o/mqdefault.jpg",
+                    "videoId": "RFdtXi4Jr7o",
+                    "position": 16,
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+                    "title": "UI Design Tutorial | Design Latest Website In Adobe XD | Learn UI/UX Designing"
+                },
+                {
+                    "title": "UI Design Tutorial | Design Latest Website In Adobe XD | Learn UI/UX Designing",
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+                    "thumbnail": "https://i.ytimg.com/vi/GQJAOTsY_IM/mqdefault.jpg",
+                    "notes": [],
+                    "position": 17,
+                    "videoId": "GQJAOTsY_IM"
+                },
+                {
+                    "thumbnail": "https://i.ytimg.com/vi/U7cI9M7Qelg/mqdefault.jpg",
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+                    "videoId": "U7cI9M7Qelg",
+                    "position": 18,
+                    "notes": [],
+                    "title": "Website Design Tutorial | UI UX Designing Tutorial In Adobe XD | Amazing Web Design"
+                },
+                {
+                    "notes": [],
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+                    "videoId": "1X2rvHKoqH4",
+                    "title": "How To Make Website UI Design In Adobe XD | Latest UI / UX Design Tutorial",
+                    "thumbnail": "https://i.ytimg.com/vi/1X2rvHKoqH4/mqdefault.jpg",
+                    "position": 19
+                },
+                {
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+                    "position": 20,
+                    "videoId": "Gi-q2AQmp54",
+                    "notes": [],
+                    "title": "Learn Website UI Design In Adobe XD | Website UI Design, UX Design Tutorial",
+                    "thumbnail": "https://i.ytimg.com/vi/Gi-q2AQmp54/mqdefault.jpg"
+                },
+                {
+                    "thumbnail": "https://i.ytimg.com/vi/CGSGuqBPsOs/mqdefault.jpg",
+                    "notes": [],
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+                    "videoId": "CGSGuqBPsOs",
+                    "title": "Website Design Tutorial | UI UX Design Tutorial Using Adobe XD",
+                    "position": 21
+                },
+                {
+                    "position": 22,
+                    "thumbnail": "https://i.ytimg.com/vi/1EFIDMaIQ60/mqdefault.jpg",
+                    "notes": [],
+                    "title": "Website UI Design Tutorial | UI UX Design Tutorial Using Adobe XD",
+                    "videoId": "1EFIDMaIQ60",
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ"
+                },
+                {
+                    "thumbnail": "https://i.ytimg.com/vi/CVWDLEGQUN0/mqdefault.jpg",
+                    "notes": [],
+                    "position": 23,
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+                    "videoId": "CVWDLEGQUN0",
+                    "title": "Web Design Tutorial | Modern Website UI Design In Adobe XD"
+                },
+                {
+                    "videoId": "wQibFSsgXt8",
+                    "notes": [],
+                    "thumbnail": "https://i.ytimg.com/vi/wQibFSsgXt8/mqdefault.jpg",
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+                    "title": "Website UI Design Tutorial | Latest Web Design UI / UX Design Video",
+                    "position": 24
+                },
+                {
+                    "videoId": "VK7EI7PivAs",
+                    "thumbnail": "https://i.ytimg.com/vi/VK7EI7PivAs/mqdefault.jpg",
+                    "position": 25,
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+                    "notes": [],
+                    "title": "Website Design Tutorial | UI UX Design For Website In Adobe XD"
+                },
+                {
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+                    "thumbnail": "https://i.ytimg.com/vi/VcHxCtTapoI/mqdefault.jpg",
+                    "title": "Website UI Design Tutorial | UI UX Design For Website In Adobe XD",
+                    "position": 26,
+                    "notes": [],
+                    "videoId": "VcHxCtTapoI"
+                },
+                {
+                    "videoId": "mkVmVyUNncw",
+                    "notes": [],
+                    "thumbnail": "https://i.ytimg.com/vi/mkVmVyUNncw/mqdefault.jpg",
+                    "title": "UI Design Tutorial | Website Design Using Adobe XD | UI And UX Designing",
+                    "position": 27,
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ"
+                },
+                {
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+                    "videoId": "4PY0t77djWs",
+                    "title": "Website UI Design Tutorial | Web Design Using Adobe XD | UI And UX Designing",
+                    "notes": [],
+                    "thumbnail": "https://i.ytimg.com/vi/4PY0t77djWs/mqdefault.jpg",
+                    "position": 28
+                },
+                {
+                    "title": "UI Design Tutorial For Interior Decoration Website | UI Designing In Adobe XD",
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+                    "thumbnail": "https://i.ytimg.com/vi/XSeYALyisbQ/mqdefault.jpg",
+                    "notes": [],
+                    "videoId": "XSeYALyisbQ",
+                    "position": 29
+                },
+                {
+                    "notes": [],
+                    "thumbnail": "https://i.ytimg.com/vi/CuoA6vvZVPA/mqdefault.jpg",
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+                    "title": "UI Design Tutorial | Website UI Designing In Adobe XD | UI Design Food Web App",
+                    "position": 30,
+                    "videoId": "CuoA6vvZVPA"
+                },
+                {
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+                    "videoId": "SYWZhT8n_5w",
+                    "title": "UI Design Uisng Adobe XD | How To Make A Website User Interface Design",
+                    "thumbnail": "https://i.ytimg.com/vi/SYWZhT8n_5w/mqdefault.jpg",
+                    "position": 31,
+                    "notes": []
+                },
+                {
+                    "videoId": "Ne-ckqCUIqw",
+                    "thumbnail": "https://i.ytimg.com/vi/Ne-ckqCUIqw/mqdefault.jpg",
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+                    "position": 32,
+                    "notes": [],
+                    "title": "Latest Website UI Design Tutorial | Website User Interface Designing In Adobe XD"
+                },
+                {
+                    "position": 33,
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+                    "videoId": "GDTrIVJPUeQ",
+                    "title": "Latest UI Design Tutorial | Ecommerce Website Page UI Design Tutorial Using Adobe XD",
+                    "thumbnail": "https://i.ytimg.com/vi/GDTrIVJPUeQ/mqdefault.jpg",
+                    "notes": []
+                },
+                {
+                    "thumbnail": "https://i.ytimg.com/vi/XT4-JhrVl2Q/mqdefault.jpg",
+                    "videoId": "XT4-JhrVl2Q",
+                    "title": "UI Design In Adobe XD | Latest Website User Interface Designing Tutorial",
+                    "position": 34,
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+                    "notes": []
+                },
+                {
+                    "notes": [],
+                    "position": 35,
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+                    "title": "Website UI Design In Adobe XD | Latest Web Design With Free UI Design Tool",
+                    "thumbnail": "https://i.ytimg.com/vi/rCNOy3IFaW0/mqdefault.jpg",
+                    "videoId": "rCNOy3IFaW0"
+                },
+                {
+                    "title": "Website UI Design In Adobe XD | Latest Web Design With Free UI Design Tool",
+                    "videoId": "8tYyEhaaiLc",
+                    "notes": [],
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+                    "thumbnail": "https://i.ytimg.com/vi/8tYyEhaaiLc/mqdefault.jpg",
+                    "position": 36
+                },
+                {
+                    "position": 37,
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+                    "videoId": "6LlbgykhVZo",
+                    "title": "Website UI Design In Adobe XD | Learn Modern Web Design With Free UI Design Tool",
+                    "notes": [],
+                    "thumbnail": "https://i.ytimg.com/vi/6LlbgykhVZo/mqdefault.jpg"
+                },
+                {
+                    "notes": [],
+                    "thumbnail": "https://i.ytimg.com/vi/sVJ440A2MDc/mqdefault.jpg",
+                    "position": 38,
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+                    "title": "Latest Website UI Design In Adobe XD | Web Design With Free UI Design Tool",
+                    "videoId": "sVJ440A2MDc"
+                },
+                {
+                    "position": 39,
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+                    "notes": [],
+                    "title": "Latest Website UI Design In Adobe XD | Modern User Interface UI Design For Website",
+                    "thumbnail": "https://i.ytimg.com/vi/hBTVPshgucA/mqdefault.jpg",
+                    "videoId": "hBTVPshgucA"
+                },
+                {
+                    "title": "Ecommerce Website UI Design In Adobe XD | Create Inspiring Website Design In Adobe XD",
+                    "notes": [],
+                    "videoId": "WhSc-oEkNbI",
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+                    "thumbnail": "https://i.ytimg.com/vi/WhSc-oEkNbI/mqdefault.jpg",
+                    "position": 40
+                },
+                {
+                    "thumbnail": "https://i.ytimg.com/vi/ps3Gt1qF7JE/mqdefault.jpg",
+                    "position": 41,
+                    "notes": [],
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+                    "videoId": "ps3Gt1qF7JE",
+                    "title": "Make Latest Website Design In UI Designing Tool Adobe XD | Website UI Design In Adobe XD"
+                },
+                {
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+                    "videoId": "w2GV_kE69to",
+                    "title": "Website UI Design In Adobe XD | Latest Website UI Designing With Easy UI Design Tool",
+                    "notes": [],
+                    "thumbnail": "https://i.ytimg.com/vi/w2GV_kE69to/mqdefault.jpg",
+                    "position": 42
+                },
+                {
+                    "position": 43,
+                    "videoId": "M5oXlV_w2OQ",
+                    "notes": [],
+                    "thumbnail": "https://i.ytimg.com/vi/M5oXlV_w2OQ/mqdefault.jpg",
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+                    "title": "Website UI Design Using Adobe XD | Latest Web Design Using Free UI Design Tool"
+                },
+                {
+                    "title": "Website UI Design Using Adobe XD | Latest Web Design Using Free UI Design Tool",
+                    "position": 44,
+                    "thumbnail": "https://i.ytimg.com/vi/M5oXlV_w2OQ/mqdefault.jpg",
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+                    "videoId": "M5oXlV_w2OQ",
+                    "notes": []
+                },
+                {
+                    "thumbnail": "https://i.ytimg.com/vi/1OPPvooQtSc/mqdefault.jpg",
+                    "notes": [],
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+                    "title": "UI Design Using Adobe XD | Modern Website Design",
+                    "position": 45,
+                    "videoId": "1OPPvooQtSc"
+                },
+                {
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+                    "notes": [],
+                    "videoId": "6JLRLVPmrtY",
+                    "position": 46,
+                    "title": "UI Design For Tours, Activities, Adventures Website | Website UI & UX Designing In Adobe XD",
+                    "thumbnail": "https://i.ytimg.com/vi/6JLRLVPmrtY/mqdefault.jpg"
+                },
+                {
+                    "videoId": "uAxTSwfij8s",
+                    "notes": [],
+                    "position": 47,
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+                    "title": "UI Design In Adobe XD | Latest Website Design Using UI Designing Tool Adobe XD",
+                    "thumbnail": "https://i.ytimg.com/vi/uAxTSwfij8s/mqdefault.jpg"
+                },
+                {
+                    "thumbnail": "https://i.ytimg.com/vi/LJLnc_hlGPk/mqdefault.jpg",
+                    "position": 48,
+                    "videoId": "LJLnc_hlGPk",
+                    "title": "UI Design In Adobe XD | Adventure Website UI Design | Travel Website Design Inspiration",
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+                    "notes": []
+                },
+                {
+                    "thumbnail": "https://i.ytimg.com/vi/NLMu6hoHfYE/mqdefault.jpg",
+                    "title": "How To Make Website UI Design In Adobe XD | Web Designing In Adobe XD",
+                    "position": 49,
+                    "videoId": "NLMu6hoHfYE",
+                    "playlistId": "PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ",
+                    "notes": []
+                }
+            ],
+            "userId": "PK9tuOqjDwRrsQa0INSIOdpossS2",
+            "videoAmount": 51,
+            "currentVideo": 0,
+            "title": "Learn UI Design (Web Design Tutorials In Adobe XD)",
+            "skillDescription": "Learning UI/UX to be a more wholesome web dev",
+            "skillName": "UI/UX mastery"
+        }
+    ]
+]
