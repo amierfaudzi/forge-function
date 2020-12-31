@@ -31,7 +31,8 @@ const {
   addNote,
   allNote,
   getNote,
-  updateNote
+  updateNote,
+  deleteNote
 } = require('./handlers/notes')
 // trial function 
 const {
@@ -53,7 +54,6 @@ app.post('/user/level', FBAuth, levelUp);
 app.get('/skills', FBAuth, getAllSkills);
 app.post('/skills', FBAuth, addSkill);
 // -> update the skill: position, progress, public
-// -> delete the skill
 app.delete('/skills', FBAuth, deleteSkill);
 
 // notes route
@@ -61,7 +61,7 @@ app.post('/notes', FBAuth, addNote);
 app.get('/notes', FBAuth, allNote);
 app.get('/note', FBAuth, getNote);
 app.put('/note', FBAuth, updateNote);
-// -> delete the note
+app.delete('/note', FBAuth, deleteNote);
 
 // trial route
 app.get('/trial', FBAuth, getNestedDoc);

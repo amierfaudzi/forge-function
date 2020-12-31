@@ -8,24 +8,25 @@ exports.addNote = (req,res) => {
         noteContent: req.body.noteContent,
         userId: req.user.user_id,
         videoId: req.body.videoId,
-        playlistId: req.body.playlistId
+        playlistId: req.body.playlistId,
+        isDeleted: false
     }
 
-    db.collection('notes').add(newNote)
-    .then((doc)=>{
+    let newNoteDoc = db.collection('notes').doc();
 
+    newNoteDoc.set({
+        ...newNote,
+        noteId: newNoteDoc.id
+    }).then(()=>{
         db.collection('notes').where('userId', "==", req.user.uid).get()
-        .then((data)=> {
-            let noteArray = []
-            data.forEach(doc=> {
+        .then(data=>{
+            data.forEach(doc=>{
                 noteArray.push(doc.data())
             })
-            console.log("this is the return", scribeCheck(noteArray.length))
+            scribeCheck(noteArray);
+            return res.status(201).json("The Note has been created")
         }).catch(err=>console.log(err))
-
-        return res.status(201).json("New note has been created!")
     }).catch(err=>console.log(err))
-    //need to use the previous technique so that there can be a duplicate note
 }
 
 // get all notes
@@ -60,3 +61,12 @@ exports.updateNote = (req,res) => {
     }).catch(err=>console.log(err))
 }
 // delete a note
+exports.deleteNote = (req,res) => {
+    db.doc(`notes/${req.body.noteId}`).update({
+        isDeleted: true
+    })
+    .then(()=> {
+        return res.status(200).json("Note has been deleted");
+    })
+    .catch(err=>console.log(err))
+}
