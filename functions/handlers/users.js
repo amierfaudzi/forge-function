@@ -10,7 +10,7 @@ const {
     validateSigninData
 } = require("../utilities/validators");
 
-//sign up a user
+// sign up a user
 exports.signup = (req,res) => {
 
     const newUser = {
@@ -60,7 +60,7 @@ exports.signup = (req,res) => {
     });
 };
 
-//sign in user
+// sign in user
 exports.signin = (req, res) => {
     const user = {
         email: req.body.email,
@@ -89,14 +89,11 @@ exports.signin = (req, res) => {
 //signout user
 exports.signout = (req, res) => {
     firebase.auth().signOut().then(()=> {
-        // Sign-out successful.
-        res.status(200).json("User is signed out")
-      }).catch(function(error) {
-        // An error happened.
-      });
+        res.status(200).json("Sign out successful")
+      }).catch(err=>console.log(err));
 } 
 
-//retrieve authenticated user information
+// retrieve authenticated user information
 exports.getAuthenticatedUser = (req, res) => {
   let userData = {};
   db.doc(`/users/${req.user.uid}`)
@@ -179,20 +176,18 @@ exports.uploadImage = (req, res) => {
     busboy.end(req.rawBody);
   };
 
-  //not tested yet
+  // level up
   exports.levelUp = (req, res) => {
     //updating the level
     db.doc(`/users/${req.user.uid}`).update({
       level: admin.firestore.FieldValue.increment(1)
     })
-    //can be used to add the toast notification
-    //i might still need to add another request to update the user
     res.status(200).json("Leveled up!")
   }
 
 
   exports.superUser = (req, res) => {
-    //signin the user and get the user data here
+    // signin the user and get the user data here
     const user = {
       email: req.body.email,
       password: req.body.password
@@ -208,7 +203,7 @@ exports.uploadImage = (req, res) => {
     firebase.auth()
     .signInWithEmailAndPassword(user.email, user.password)
     .then(({ user })=> {
-        //user destructuring is really important else error
+        // user destructuring is really important else error
         return user.getIdToken();
     })
     .then(token => {

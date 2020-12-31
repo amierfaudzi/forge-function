@@ -49,13 +49,13 @@ app.post('/user/level', FBAuth, levelUp);
 // skills route
 app.get('/skills', FBAuth, getAllSkills);
 app.post('/skills', FBAuth, addASkill);
-// -> update the skill
+// -> update the skill: position, progress, public
 // -> delete the skill
 
 // notes route
 app.post('/notes', FBAuth, addNote);
 app.get('/notes', FBAuth, allNote);
-// -> update the note
+// -> update the note - no nee d maybe
 // -> delete the note
 
 // trial route

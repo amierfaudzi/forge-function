@@ -15,6 +15,7 @@
 // Skill - top level collection
 {
     "skillName": "Skill 1",
+    "skillId": "autogen",
     "skillDescription": "This is for skill 1",
     "ownerUserId": "abc123",
     "playlistId": "zyx987",

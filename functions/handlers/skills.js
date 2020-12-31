@@ -32,12 +32,14 @@ exports.addASkill = (req, res) =>{
         thumbnailUrl: req.body.thumbnailUrl,
         nextPageToken: req.body.nextPageToken,
         video: req.body.video,
-        currentVideo: req.body.currentVideo
+        currentVideo: req.body.currentVideo,
+        isPublic: req.body.isPublic,
+        isDeleted: false
     }
 
     console.log(newSkill)
 
-    // //current skills array
+    // //current skills array - mignt need to undo these mfers
     // let currSkill = []
     // db.doc(`/users/${req.user.user_id}`).get()
     // .then((doc)=> {
@@ -60,8 +62,26 @@ exports.addASkill = (req, res) =>{
     // })
     // .catch(err=>console.log(err))
 
-    db.collection('skills').add(newSkill)
-    .then((doc)=>{
-        res.status(201).json(newSkill)
+    // db.collection('skills').add(newSkill)
+    // .then((doc)=>{
+    //     console.log(doc.path)
+    //     res.status(201).json(newSkill)
+    // })
+
+    let newSkillDoc = db.collection('skills').doc();
+    
+    newSkillDoc.set({
+        ...newSkill,
+        skillId: newSkillDoc.id
+    }).then(()=>{
+        res.json("skill has been created")
     })
+}
+
+// delete a skill 
+exports.deleteSkill = (req, res) => {
+    db.doc(`skills/`).update({
+        isDeleted: true
+    })
+    res.status(200).json("Skill has been deleted");
 }
