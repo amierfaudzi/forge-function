@@ -23,7 +23,7 @@ exports.addNote = (req,res) => {
             console.log("this is the return", scribeCheck(noteArray.length))
         }).catch(err=>console.log(err))
 
-        return res.json("New note has been created!")
+        return res.status(201).json("New note has been created!")
     }).catch(err=>console.log(err))
     //need to use the previous technique so that there can be a duplicate note
 }
@@ -49,3 +49,14 @@ exports.getNote = (req, res) => {
         res.json("here is your note")
     })
 }
+
+// update a note
+exports.updateNote = (req,res) => {
+
+    db.doc(`notes/${req.body.noteId}`).update({
+        noteContent: req.body.noteContent
+    }).then(()=>{
+        res.status(200).json("Note has been updated");
+    }).catch(err=>console.log(err))
+}
+// delete a note

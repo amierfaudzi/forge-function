@@ -30,7 +30,8 @@ const {
 const {
   addNote,
   allNote,
-  getNote
+  getNote,
+  updateNote
 } = require('./handlers/notes')
 // trial function 
 const {
@@ -58,8 +59,8 @@ app.delete('/skills', FBAuth, deleteSkill);
 // notes route
 app.post('/notes', FBAuth, addNote);
 app.get('/notes', FBAuth, allNote);
-app.get('/note', FBAuth, getNote)
-// -> update the note - no nee d maybe
+app.get('/note', FBAuth, getNote);
+app.put('/note', FBAuth, updateNote);
 // -> delete the note
 
 // trial route

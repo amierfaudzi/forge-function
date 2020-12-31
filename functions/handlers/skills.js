@@ -87,5 +87,4 @@ exports.deleteSkill = (req, res) => {
         return res.status(200).json("Skill has been deleted");
     })
     .catch(err=>console.log(err))
-
 }

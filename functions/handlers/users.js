@@ -182,7 +182,10 @@ exports.uploadImage = (req, res) => {
     db.doc(`/users/${req.user.uid}`).update({
       level: admin.firestore.FieldValue.increment(1)
     })
-    res.status(200).json("Leveled up!")
+    .then(()=>{
+      res.status(200).json("Leveled up!")
+    }).catch(err=>console.log(err))
+    
   }
 
 
