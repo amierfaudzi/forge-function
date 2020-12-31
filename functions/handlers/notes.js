@@ -20,22 +20,32 @@ exports.addNote = (req,res) => {
             data.forEach(doc=> {
                 noteArray.push(doc.data())
             })
-            console.log("this is the return",scribeCheck(noteArray.length))
+            console.log("this is the return", scribeCheck(noteArray.length))
         }).catch(err=>console.log(err))
 
         return res.json("New note has been created!")
     }).catch(err=>console.log(err))
+    //need to use the previous technique so that there can be a duplicate note
 }
 
 // get all notes
 exports.allNote = (req,res) => {
-    console.log(req.body.playlistId)
     db.collection('notes').where('playlistId', '==', req.body.playlistId)
     .get().then(doc => {
         doc.forEach(doc=> {
             console.log(doc.data());
             res.json("You are here")
         })
-    }
-    ).catch(err=>console.log(err))
+    }).catch(err=>console.log(err))
+}
+
+// get a single note
+exports.getNote = (req, res) => {
+    db.collection('notes')
+    .where('userId', '==', req.user.uid)
+    .where('videoId', '==', req.body.videoId)
+    .get().then(doc=>{
+        console.log(doc);
+        res.json("here is your note")
+    })
 }

@@ -23,12 +23,14 @@ const {
 // skill functions
 const {
   getAllSkills,
-  addASkill
+  addSkill,
+  deleteSkill
 } = require('./handlers/skills');
 // note functions
 const {
   addNote,
-  allNote
+  allNote,
+  getNote
 } = require('./handlers/notes')
 // trial function 
 const {
@@ -48,13 +50,15 @@ app.post('/user/level', FBAuth, levelUp);
 
 // skills route
 app.get('/skills', FBAuth, getAllSkills);
-app.post('/skills', FBAuth, addASkill);
+app.post('/skills', FBAuth, addSkill);
 // -> update the skill: position, progress, public
 // -> delete the skill
+app.delete('/skills', FBAuth, deleteSkill);
 
 // notes route
 app.post('/notes', FBAuth, addNote);
 app.get('/notes', FBAuth, allNote);
+app.get('/note', FBAuth, getNote)
 // -> update the note - no nee d maybe
 // -> delete the note
 

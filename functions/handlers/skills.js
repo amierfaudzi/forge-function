@@ -14,7 +14,7 @@ exports.getAllSkills = (req,res) => {
 };
 
 //add a a skill
-exports.addASkill = (req, res) =>{
+exports.addSkill = (req, res) =>{
 
     if(req.body.skillName.trim() === ""){
         return res.status(400).json({ skillName : "Skill name must not be empty" });
@@ -80,8 +80,12 @@ exports.addASkill = (req, res) =>{
 
 // delete a skill 
 exports.deleteSkill = (req, res) => {
-    db.doc(`skills/`).update({
+    db.doc(`skills/${req.body.skillId}`).update({
         isDeleted: true
     })
-    res.status(200).json("Skill has been deleted");
+    .then(()=> {
+        return res.status(200).json("Skill has been deleted");
+    })
+    .catch(err=>console.log(err))
+
 }
