@@ -20,10 +20,11 @@ exports.addNote = (req,res) => {
     }).then(()=>{
         db.collection('notes').where('userId', "==", req.user.uid).get()
         .then(data=>{
+            let noteArray = [];
             data.forEach(doc=>{
                 noteArray.push(doc.data())
             })
-            scribeCheck(noteArray);
+            scribeCheck(noteArray.length, req.user.uid);
             return res.status(201).json("The Note has been created")
         }).catch(err=>console.log(err))
     }).catch(err=>console.log(err))
