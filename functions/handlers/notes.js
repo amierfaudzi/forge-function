@@ -1,5 +1,5 @@
 const { db } = require('../utilities/admin');
-const { scribeCheck } = require('../utilities/achievement');
+const { achievementCheck } = require('../utilities/achievement');
 // add a note
 exports.addNote = (req,res) => {
     
@@ -24,9 +24,14 @@ exports.addNote = (req,res) => {
             data.forEach(doc=>{
                 noteArray.push(doc.data())
             })
-            scribeCheck(noteArray.length, req.user.uid);
-            return res.status(201).json("The Note has been created")
-        }).catch(err=>console.log(err))
+            return noteArray;
+        }).then((noteArray)=>{
+            achievementCheck(noteArray.length, req.user.uid, "Architect").then((newTitle)=>{
+                console.log("This is the scribe scheck returbn", newTitle)
+                return res.status(201).json({message: "The Note has been created", title: newTitle})
+            })
+        })
+        .catch(err=>console.log(err))
     }).catch(err=>console.log(err))
 }
 
@@ -61,6 +66,7 @@ exports.updateNote = (req,res) => {
         res.status(200).json("Note has been updated");
     }).catch(err=>console.log(err))
 }
+
 // delete a note
 exports.deleteNote = (req,res) => {
     db.doc(`notes/${req.body.noteId}`).update({
