@@ -9,6 +9,7 @@ exports.addNote = (req,res) => {
         userId: req.user.user_id,
         videoId: req.body.videoId,
         playlistId: req.body.playlistId,
+        skillId: req.body.skillId,
         isDeleted: false
     }
 

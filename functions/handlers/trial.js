@@ -1,5 +1,5 @@
+const { default: axios } = require('axios');
 const { db } = require('../utilities/admin'); 
-// getting sub collection data
  
 exports.getNestedDoc = (req, res) => {
 
@@ -18,4 +18,40 @@ exports.getOneVideo = (req,res) => {
         res.json("THis is reached")
     }).catch(err=>console.log(err))
 
+}
+
+
+// Get all the video from a playlist
+exports.videoCompiler = (req,res) => {
+    // let playlistDetails = {};
+    // let nextPageToken = ''
+    // let callURL ='';
+
+    // while(true){
+
+    //     // url builder
+    //     if(nextPageToken){
+    //         // include the next page into the url
+    //         callURL = `https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=${req.body.playlistId}&maxResults=50&key=${process.env.YOUTUBE}&pageToken=${nextPageToken}`
+    //     } else {
+    //         // use the normies url
+    //         callURL = `https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=${req.body.playlistId}&maxResults=50&key=${process.env.YOUTUBE}`
+    //     }
+
+    //     axios.get(callURL)
+    //     .then((res)=>{
+
+    //         playlistDetails = res.data
+    //         nextPageToken = res.data.nextPageToken;
+    //     })
+    //     .catch(err => {
+    //         console.log(err)
+    //     })
+
+    //     if(!nextPageToken){
+    //         break;
+    //     }
+
+    //     res.json(playlistDetails)
+    // }
 }

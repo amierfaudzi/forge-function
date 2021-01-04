@@ -1,6 +1,6 @@
 const { db } = require('../utilities/admin');
 
-//get all skills
+// Get all skills
 exports.getAllSkills = (req,res) => {
     let skillsData = [];
     db.collection('skills').where('userId', "==", req.user.uid)
@@ -8,12 +8,12 @@ exports.getAllSkills = (req,res) => {
         data.forEach(doc=>{
             skillsData.push(doc.data());
         })
-        return res.json(skillsData);
+        return res.status(200).json(skillsData);
     })
     .catch(err=>console.log(err))
 };
 
-//add a a skill
+// Add a a skill
 exports.addSkill = (req, res) =>{
 
     if(req.body.skillName.trim() === ""){
@@ -30,52 +30,46 @@ exports.addSkill = (req, res) =>{
         channelTitle: req.body.channelTitle,
         description: req.body.description,
         thumbnailUrl: req.body.thumbnailUrl,
-        nextPageToken: req.body.nextPageToken,
-        video: req.body.video,
-        currentVideo: req.body.currentVideo,
+        nextPageToken: req.body.nextPageToken || null,
+        videos: req.body.video,
+        currentVideo: req.body.currentVideo || null,
         isPublic: req.body.isPublic,
         isDeleted: false
     }
 
-    console.log(newSkill)
-
-    // //current skills array - mignt need to undo these mfers
-    // let currSkill = []
-    // db.doc(`/users/${req.user.user_id}`).get()
-    // .then((doc)=> {
-    //     currSkill = doc.data().skills;
-    //     console.log("this is currskill", currSkill, doc.data())
-    // })
-    // .then(()=>{
-    //     //add the new skills
-    //     db.collection('skills').add(newSkill)
-    //     .then((doc)=>{
-    //     let resSkill = newSkill;
-    //     resSkill.skillId = doc.id;
-    //     currSkill.push(doc.id);
-    //     //build a new skills array
-    //     db.doc(`/users/${req.user.user_id}`).set({
-    //         skills: currSkill
-    //     }, {merge: true})
-    //     res.status(201).json(resSkill)
-    //     })
-    // })
-    // .catch(err=>console.log(err))
-
-    // db.collection('skills').add(newSkill)
-    // .then((doc)=>{
-    //     console.log(doc.path)
-    //     res.status(201).json(newSkill)
-    // })
-
     let newSkillDoc = db.collection('skills').doc();
-    
+    let userData = {};
+    let skillsArray = [];
+
     newSkillDoc.set({
         ...newSkill,
         skillId: newSkillDoc.id
-    }).then(()=>{
-        res.json("skill has been created")
     })
+    .then(()=>{
+        db.doc(`/users/${req.user.user_id}`).get()
+        .then(doc => {
+            userData = {...doc.data()}
+            return userData.skills || [];
+        }).then(array => {
+
+            const miniSkill = {
+                skillName: req.body.skillName,
+                skillDescription: req.body.skillDescription,
+                playlistId: req.body.playlistId,
+                thumbnailUrl: req.body.thumbnailUrl,
+                skillId: newSkillDoc.id
+            }
+
+            skillsArray = array;
+            skillsArray.push(miniSkill);
+            db.doc(`/users/${userId}`).update({
+                skills: skillsArray
+            })
+        })
+    })
+    .then(()=>{
+        res.status(201).json(`${newSkill.skillName} has been added`);
+    }).catch(err => console.log(err));
 }
 
 // delete a skill 

@@ -2,6 +2,7 @@ const functions = require('firebase-functions');
 const FBAuth = require('./utilities/fbAuth');
 const app = require('express')();
 const cors = require('cors');
+require('dotenv').config();
 
 app.use(cors());
 
@@ -37,7 +38,8 @@ const {
 // trial function 
 const {
   getNestedDoc,
-  getOneVideo
+  getOneVideo,
+  videoCompiler
 } = require('./handlers/trial')
 
 // users routes
@@ -65,6 +67,7 @@ app.delete('/note', FBAuth, deleteNote);
 
 // trial route
 app.get('/trial', FBAuth, getNestedDoc);
-app.get('/one', FBAuth, getOneVideo)
+app.get('/one', FBAuth, getOneVideo);
+app.get('/compiler' , videoCompiler);
 
 exports.api = functions.https.onRequest(app);

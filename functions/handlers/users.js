@@ -1,6 +1,5 @@
 const { admin, db } = require('../utilities/admin');
 const config = require('../utilities/config');
-const { v4: uuidv4 } = require('uuid');
 
 const firebase = require('firebase');
 firebase.initializeApp(config);
@@ -10,7 +9,7 @@ const {
     validateSigninData
 } = require("../utilities/validators");
 
-// sign up a user
+// Sign up a user
 exports.signup = (req,res) => {
 
     const newUser = {
@@ -40,7 +39,9 @@ exports.signup = (req,res) => {
             name: newUser.name,
             email: newUser.email,
             imageUrl: `https://firebasestorage.googleapis.com/v0/b/${config.storageBucket}/o/${noImg}?alt=media`,
-            
+            titles: [],
+            skills: [],
+            currentSkill: {},
             userId,
             level: 0
         };
@@ -60,7 +61,7 @@ exports.signup = (req,res) => {
     });
 };
 
-// sign in user
+// Sign in user
 exports.signin = (req, res) => {
     const user = {
         email: req.body.email,
@@ -190,15 +191,13 @@ exports.uploadImage = (req, res) => {
 
 
   exports.superUser = (req, res) => {
-    // signin the user and get the user data here
     const user = {
       email: req.body.email,
       password: req.body.password
     };
-    // final payload to be sent back to the front end
+
     const payload = [];
     
-    // sign in component
     const { valid, errors } = validateSigninData(user);
 
     if(!valid) return res.status(400).json(errors);
@@ -206,7 +205,6 @@ exports.uploadImage = (req, res) => {
     firebase.auth()
     .signInWithEmailAndPassword(user.email, user.password)
     .then(({ user })=> {
-        // user destructuring is really important else error
         return user.getIdToken();
     })
     .then(token => {
@@ -227,12 +225,10 @@ exports.uploadImage = (req, res) => {
         })
         .then((data)=> {
 
-          let rando = data.docs[0].data();
-          console.log("This is rando",rando)
+          let userData = data.docs[0].data();
           // add user payload here
-          payload.push(rando);
-          return (rando.userId)
-
+          payload.push(userData);
+          return (userData.userId)
         })
         .then(id=>{
           const skills = []

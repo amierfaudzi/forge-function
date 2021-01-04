@@ -1,4 +1,4 @@
-// User - top level collection
+[
 {
     "name": "Amier",
     "email": "amier.faudzi@gmail.com",
@@ -11,8 +11,7 @@
             "skillDescription": "This is for skill 1"
         }
     ]
-}
-// Skill - top level collection
+},
 {
     "skillName": "Skill 1",
     "skillId": "autogen",
@@ -32,11 +31,11 @@
             "thumbnail": "https://i.ytimg.com/vi/QFaFIcGhPoM/mqdefault.jpg"
         }
     ]
-}
-// Notes - top level collection
+},
 {
     "videoId": "QFaFIcGhPoM",
     "playlistId": "zyx987",
-    "userId": "abc123"
+    "userId": "abc123",
     "note": ""
 }
+]
