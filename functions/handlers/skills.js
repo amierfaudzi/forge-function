@@ -33,7 +33,7 @@ exports.addSkill = (req, res) =>{
         nextPageToken: req.body.nextPageToken || null,
         videos: req.body.video,
         currentVideo: req.body.currentVideo || null,
-        isPublic: req.body.isPublic,
+        isPublic: req.body.isPublic || false,
         isDeleted: false
     }
 
