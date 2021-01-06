@@ -32,7 +32,7 @@ exports.addSkill = (req, res) =>{
         thumbnailUrl: req.body.thumbnailUrl,
         nextPageToken: req.body.nextPageToken || null,
         videos: req.body.video,
-        currentVideo: req.body.currentVideo || null,
+        currentVideo: 0,
         isPublic: req.body.isPublic || false,
         isDeleted: false
     }
@@ -66,8 +66,9 @@ exports.addSkill = (req, res) =>{
                 skills: skillsArray
             })
         })
+
     })
-    .then(()=>{
+    .then((skillsArray)=>{
         res.status(201).json(`${newSkill.skillName} has been added`);
     }).catch(err => console.log(err));
 }
