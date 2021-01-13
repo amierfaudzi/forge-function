@@ -1,6 +1,6 @@
 const { db } = require('../utilities/admin');
 
-// Get all skills
+// Get all user skills
 exports.getAllSkills = (req,res) => {
     let skillsData = [];
     db.collection('skills').where('userId', "==", req.user.uid)
@@ -82,4 +82,17 @@ exports.deleteSkill = (req, res) => {
         return res.status(200).json("Skill has been deleted");
     })
     .catch(err=>console.log(err))
+}
+
+// get all skills in the system
+exports.grandKeep = (req, res) => {
+    let allSkills = []
+    db.collection('skills').where('isPublic', "==", true).get()
+    .then((data)=>{
+        data.forEach(doc=>{
+            allSkills.push(doc.data());
+        })
+        return res.status(200).json(allSkills);
+    })
+    .catch(err => console.log(err));
 }

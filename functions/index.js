@@ -25,7 +25,8 @@ const {
 const {
   getAllSkills,
   addSkill,
-  deleteSkill
+  deleteSkill,
+  grandKeep
 } = require('./handlers/skills');
 // note functions
 const {
@@ -57,6 +58,7 @@ app.get('/skills', FBAuth, getAllSkills);
 app.post('/skills', FBAuth, addSkill);
 // -> update the skill: position, progress, public
 app.delete('/skills', FBAuth, deleteSkill);
+app.get('/grandkeep', grandKeep);
 
 // notes route
 app.post('/notes', FBAuth, addNote);
